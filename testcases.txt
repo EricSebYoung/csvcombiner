@@ -1,0 +1,5 @@
+php csv-combiner.php ./fixtures/accessories.csv ./fixtures/clothing.csv > combined1.csv
+php csv-combiner.php ./fixtures/accessories.csv ./fixtures/household_cleaners.csv > combined2.csv
+php csv-combiner.php ./fixtures/clothing.csv ./fixtures/household_cleaners.csv > combined3.csv 
+php csv-combiner.php ./fixtures/accessories.csv ./fixtures/clothing.csv ./fixtures/household_cleaners.csv > combined4.csv 
+php csv-combiner.php ./fixtures/newHeaders.csv ./fixtures/clothing.csv > combined5.csv
